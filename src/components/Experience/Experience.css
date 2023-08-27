@@ -1,0 +1,44 @@
+.sectionSubText {
+  font-size: 14px;
+  color: #958a8a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sectionHeadText {
+  color: white;
+  font-size: 30px;
+}
+.exIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.exIcon {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+.exTitle {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.exCompany {
+  color: #958a8a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.exPointContainer {
+  margin-top: 0.5rem;
+  list-style-type: disc;
+  margin-left: 0.5rem;
+}
+
+.exPoint {
+  color: rgb(167, 160, 160);
+  font-size: 14px;
+  padding-left: 1px;
+  letter-spacing: normal;
+}

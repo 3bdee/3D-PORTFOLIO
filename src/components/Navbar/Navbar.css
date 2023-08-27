@@ -1,0 +1,130 @@
+:root {
+  --secondary-color: #958a8a; /* Replace with your desired color value */
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  padding-top: 1.25rem;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+.bg-primary {
+  background-color: #1b1616c9;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 11px;
+  border-radius: 8px;
+}
+.logoLink {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  text-decoration: none;
+}
+.logoDesc {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+}
+.myLogo {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: contain;
+}
+
+.listMenu {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+}
+@media screen and (max-width: 640px) {
+  .listMenu {
+    display: none;
+  }
+}
+.hiddenMenu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  flex: 1;
+  gap: 1rem;
+}
+@media screen and (min-width: 640px) {
+  .toggleMenu {
+    display: none;
+  }
+}
+.hiddenMenuContainer {
+  padding: 2rem;
+  position: absolute;
+  top: 4rem;
+  right: 0;
+  margin-right: 0;
+  margin-top: 1rem;
+  min-width: 140px;
+  z-index: 10;
+  border-radius: 1rem;
+}
+.hidden {
+  display: none;
+}
+.flex {
+  display: flex;
+}
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.toggleIcon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  cursor: pointer;
+}
+.activeLink {
+  color: white;
+}
+.notActiveLink {
+  color: var(--secondary-color);
+}
+.menulinks {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+.menulinks:hover {
+  color: white;
+}
+.hiddenLinks {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}

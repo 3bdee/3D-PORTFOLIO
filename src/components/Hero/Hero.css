@@ -1,0 +1,111 @@
+.heroSection {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mainDesc {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  top: 120px;
+  max-width: 7rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.mainDescBarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.barBall {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  background-color: #915eff;
+}
+.barStick {
+  width: 3px;
+  height: 18rem;
+}
+.violet-gradient {
+  background: #804dee;
+  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.heroHeadText {
+  font-weight: 900;
+  color: white;
+  font-size: 40px;
+  margin-top: 0.5px;
+}
+.heroHeadText span {
+  color: #915eff;
+}
+@media (min-width: 1024px) {
+  .heroHeadText {
+    font-size: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .heroHeadText {
+    font-size: 50px;
+  }
+  .heroHeadText {
+    font-size: 80px;
+    line-height: 98px;
+  }
+  .heroSubText {
+    font-size: 30px;
+  }
+}
+.heroSubText {
+  color: #dfd9ff;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+}
+@media (min-width: 640px) {
+  .heroSubText {
+    font-size: 20px;
+  }
+  .HeroBar {
+    display: block;
+  }
+}
+.flowBottom {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flowBottomMotion {
+  width: 35px;
+  height: 64px;
+  border-radius: 3rem;
+  border: 2px solid #958a8a;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 0.25rem;
+}
+.motionStyles {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #958a8a;
+  margin-bottom: 1rem;
+}

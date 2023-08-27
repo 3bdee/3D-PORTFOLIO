@@ -1,0 +1,10 @@
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.techBalls {
+  width: 12rem;
+  height: 12rem;
+}

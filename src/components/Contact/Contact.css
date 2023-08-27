@@ -1,0 +1,8 @@
+.Contact {
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: row;
+  flex-direction: column-reverse;
+  gap: 2.5rem;
+  overflow: hidden;
+}

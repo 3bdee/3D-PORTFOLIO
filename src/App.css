@@ -1,0 +1,30 @@
+.appContainer {
+  background-image: url(./assets/herobg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.appContainer::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Thumb */
+.appContainer::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+.appContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Track */
+.appContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle when the user drags it */
+.appContainer::-webkit-scrollbar-thumb:active {
+  background-color: #777;
+}

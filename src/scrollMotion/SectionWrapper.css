@@ -1,0 +1,12 @@
+.motionSection {
+  padding: 10px 16px;
+  max-width: 70rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+.hash-span {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  display: block;
+}

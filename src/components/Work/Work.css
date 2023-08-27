@@ -1,0 +1,103 @@
+.projectCard {
+  padding: 1.25rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+@media (min-width: 640px) {
+  .projectCard {
+    width: 360px;
+  }
+}
+.sectionSubText {
+  font-size: 14px;
+  color: #958a8a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sectionHeadText {
+  color: white;
+  font-size: 30px;
+}
+.cardContent {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+.cardImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+.projectContent {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: end;
+  margin: 0.5rem;
+}
+.card-img_hover {
+}
+
+.gitHubIcon {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+}
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.sourceLink {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.projectName {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+.projectDesc {
+  margin-top: 0.2rem;
+  font-size: 14px;
+  color: #958a8a;
+}
+.projectTag {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.tagContent {
+  font-size: 14px;
+}
+.tags {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.description {
+  margin-top: 1rem;
+  color: #958a8a;
+  font-size: 17px;
+  width: 100%;
+  line-height: 30px;
+  padding: 12px;
+  text-align: center;
+}

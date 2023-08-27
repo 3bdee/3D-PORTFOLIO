@@ -1,0 +1,64 @@
+.sectionSubText {
+  font-size: 14px;
+  color: #958a8a;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sectionHeadText {
+  color: white;
+  font-size: 30px;
+}
+.description {
+  margin-top: 1rem;
+  color: #958a8a;
+  font-size: 17px;
+  width: 100%;
+  line-height: 30px;
+  padding: 12px;
+  text-align: center;
+}
+.serviceCardContainer {
+  width: 100%;
+}
+.serviceCards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 12rem 12rem;
+  flex-wrap: wrap;
+  grid-gap: 2rem;
+  /* align-items: center; */
+  gap: 2rem;
+  justify-content: center;
+}
+.serviceCard {
+  width: 100%;
+  padding: 1px;
+  border-radius: 20px;
+}
+
+.green-pink-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+.serviceCardContent {
+  background-color: rgb(20, 20, 20);
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  min-height: 280px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.serviceIcon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+.serviceTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
