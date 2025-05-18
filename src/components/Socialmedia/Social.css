@@ -1,0 +1,37 @@
+.socialmediaicons {
+  display: flex;
+
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.socialmediaicons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 3px;
+}
+
+.facebook {
+  background: #1877f2;
+  color: #fff !important;
+}
+.instagram {
+  background: linear-gradient(
+    29.61deg,
+    #f38334 0%,
+    #da2e7d 50.39%,
+    #6b54c6 100%
+  );
+  color: #fff !important;
+}
+.linkedin {
+  background: #336aea;
+  color: #fff !important;
+}
+.tiktok {
+  background: #fff;
+  color: #000 !important;
+}
